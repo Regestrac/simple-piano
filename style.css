@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.piano{
+    height: 20rem;
+    padding: 5rem 2.5rem 0 2.5rem ;
+    background-color: #fc8989;
+    border-radius: 1rem;
+}
+.keys{
+    position: relative;
+}
+.white-keys{
+    display: flex;
+}
+.white-key{
+    width: 4rem;
+    height: 19rem;
+    background-color: #fff;
+    border: solid black 2px;
+    border-radius: 0 0 .5rem .5rem;
+    box-sizing: border-box;
+}
