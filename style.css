@@ -27,6 +27,9 @@ body{
     border-radius: 0 0 .5rem .5rem;
     box-sizing: border-box;
 }
+.white-key:active{
+    background-color: #dadada;
+}
 .black-keys{
     position: relative;
     display: flex;
@@ -38,6 +41,9 @@ body{
     border-radius: 0 0 .5rem .5rem;
     box-sizing: border-box;
     position: absolute;
+}
+.black-key:active{
+    background-color: #333333;
 }
 .black-key:nth-child(1){
     left: 3rem;

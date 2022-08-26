@@ -5,5 +5,5 @@ function playSound(soundUrl){
 pianoKeys.forEach((pianoKey, i)=> {
     const num = i<9 ? '0'+(i+1) : (i+1);
     const soundUrl = 'sounds/key'+num+'.ogg';
-    pianoKey.addEventListener('click', () => playSound(soundUrl))
+    pianoKey.addEventListener('mousedown', () => playSound(soundUrl))
 })
