@@ -9,7 +9,7 @@ body{
 }
 .piano{
     height: 19rem;
-    padding: 5rem 2.5rem 0 2.5rem ;
+    padding: 5rem 2rem 0 2rem ;
     background-color: #fc8989;
     border-radius: 1rem;
 }
@@ -69,3 +69,4 @@ body{
 .black-key:nth-child(10){
     left: 51rem;
 }
+
